@@ -1,0 +1,139 @@
+{
+  "case_id": "SYNTHETIC_001",
+  "crowe_level": 1,
+  "input_status": "SYNTHETIC GEOMETRY ONLY; NOT PATIENT DATA OR STUDY RESULTS",
+  "mode": "fixed constraints",
+  "kb_constraint_application": {
+    "requested": false,
+    "application_succeeded": null
+  },
+  "scale_and_dimensions": {
+    "mm_per_pixel": 0.5,
+    "image_size": [
+      512,
+      512
+    ],
+    "landmark_count": 9
+  },
+  "image_width": 512,
+  "curve_points": [
+    [
+      390,
+      130
+    ]
+  ],
+  "plans": [
+    {
+      "outer_point": [
+        390,
+        130
+      ],
+      "center_point": [
+        348.4648541907107,
+        181.29163345616007
+      ],
+      "norm_denom": 1.0,
+      "line6_angle_rad": -0.698131700797731,
+      "line7_angle_rad": -0.8901179185171078,
+      "line6_angle_deg": -39.99999999999996,
+      "line7_angle_deg": -50.999999999999986,
+      "line1_eq": [
+        0.0,
+        -200.0,
+        44000.0
+      ],
+      "line4_eq": [
+        0.0,
+        -200.0,
+        26000.0
+      ],
+      "circle_diameter": 102.5832669123201,
+      "distance_to_line1": 38.70836654383995,
+      "distance_to_line4": 51.53514580928932,
+      "distance_to_line2": 268.4648541907107,
+      "distance_to_line3": 128.4648541907107,
+      "distance_to_line8": 168.70836654383993,
+      "is_valid": true,
+      "is_special_fallback": false,
+      "intersects_curve2": false,
+      "scale_factor": 0.5,
+      "safe_even_diameter": 52,
+      "actual_diameter": 51.29163345616005,
+      "coverage_rate_angle": 93.88888888888887,
+      "coverage_rate_horizontal": 102.13488663742815,
+      "need_cover": false,
+      "circle_to_curve2_distance": 204.89541625976562,
+      "circle_to_curve2_distance_actual": 102.44770812988281,
+      "circle_to_curve3_distance": 233.54501342773438,
+      "circle_to_curve3_distance_actual": 116.77250671386719,
+      "scores": {
+        "circle_diameter": 0.9998950406461296,
+        "distance_to_line1": 0.8961576381717151,
+        "distance_to_line4": 0.9465590830441125,
+        "distance_to_line2": 0.9712856145618348,
+        "distance_to_line3": 0.9876709555923329,
+        "distance_to_line8": 0.8948482494810485,
+        "position_stability": 1.0,
+        "balance": 0.9654228466207181,
+        "local_diameter_bonus": 0.08571428265306134
+      },
+      "final_score": 1.050738656395283
+    },
+    {
+      "outer_point": [
+        390,
+        130
+      ],
+      "center_point": [
+        349.0,
+        174.0
+      ],
+      "norm_denom": 1.0,
+      "line6_angle_rad": -0.698131700797731,
+      "line7_angle_rad": -0.8206776369910393,
+      "line6_angle_deg": -39.99999999999996,
+      "line7_angle_deg": -47.021364940356,
+      "line1_eq": [
+        0.0,
+        -200.0,
+        44000.0
+      ],
+      "line4_eq": [
+        200.0,
+        0.0,
+        -80000.0
+      ],
+      "circle_diameter": 102.5802,
+      "distance_to_line1": 46.0,
+      "distance_to_line4": 51.0,
+      "distance_to_line2": 269.0,
+      "distance_to_line3": 129.0,
+      "distance_to_line8": 176.0,
+      "is_valid": true,
+      "is_special_fallback": true,
+      "intersects_curve2": false,
+      "scale_factor": 0.5,
+      "need_cover": false,
+      "safe_even_diameter": 52,
+      "actual_diameter": 51.2901,
+      "circle_to_curve2_distance": 211.580322265625,
+      "circle_to_curve2_distance_actual": 105.7901611328125,
+      "circle_to_curve3_distance": 240.22991943359375,
+      "circle_to_curve3_distance_actual": 120.11495971679688,
+      "coverage_rate_angle": 96.09924169980219,
+      "coverage_rate_horizontal": 102.1754674514413,
+      "scores": {
+        "circle_diameter": 1.0,
+        "distance_to_line1": 0.8863326198981305,
+        "distance_to_line4": 0.9654779875770249,
+        "distance_to_line2": 0.9779845753077243,
+        "distance_to_line3": 0.9959457046039136,
+        "distance_to_line8": 0.9576851514783805,
+        "position_stability": 0.0,
+        "balance": 0.9581025081469386
+      },
+      "final_score": 0.7727562716394426
+    }
+  ],
+  "nonfinite_values_serialized_as_null": []
+}
